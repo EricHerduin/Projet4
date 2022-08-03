@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -743,6 +743,8 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 270px;
+  height: 270px;
 }
 
 .portfolio-row {
@@ -755,7 +757,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(71, 63, 42, 0.6);
   padding: 40px 40px 40px 40px;
 }
 
@@ -1041,4 +1043,49 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+
+.bloc__title {
+  font-size: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc__service {
+  font-size: 14px;
+}
+
+.bloc__citation p:nth-child(1) {
+  font-size: 18px;
+  font-style: italic;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 18px;
+  margin-bottom: Opx;
+}
+
+.bloc__nomcitation {
+  font-size: 17px;
+  width: 100%;
+  font-weight: 200;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -12px;
+}
+
+.bloc__textpresentation {
+  font-size: 16px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+strong {
+  font-weight: normal;
+}
+
+.text-portfolio {
+  font-size: 16px;
 }
