@@ -1045,6 +1045,14 @@ h4 {
   }
 }
 
+.logo__header {
+  height: 40px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
 .bloc__title {
   font-size: 20px;
   width: 60%;
@@ -1077,7 +1085,7 @@ h4 {
 
 .bloc__textpresentation {
   font-size: 16px;
-  width: 50%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
