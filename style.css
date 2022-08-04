@@ -1047,14 +1047,7 @@ h4 {
   }
 }
 
-.logo__header {
-  height: 40px;
-  width: 216px;
-}
-.logo {
-  width: 100px;
-  height: 100px;
-}
+/*Modification Amélioration Performance et SEO*/
 
 .bloc__title {
   font-size: 20px;
@@ -1063,7 +1056,7 @@ h4 {
   margin-right: auto;
 }
 
-.bloc__service {
+.bloc__p {
   font-size: 14px;
 }
 
@@ -1099,9 +1092,4 @@ strong {
 
 .text-portfolio {
   font-size: 16px;
-}
-
-.portfolio__img {
-  width: 270px;
-  height: 270px;
 }
