@@ -574,7 +574,9 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-  max-height: 90vh;
+  max-height: 60vh;
+  width: 400px;
+  height: 400px;
   margin: 0 auto;
 }
 
@@ -1097,4 +1099,9 @@ strong {
 
 .text-portfolio {
   font-size: 16px;
+}
+
+.portfolio__img {
+  width: 270px;
+  height: 270px;
 }
